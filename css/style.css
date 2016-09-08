@@ -1,0 +1,78 @@
+body{
+    overflow: hidden;
+    background-image: url(../css/img/fon.jpeg);
+    background-size: 100%;
+    cursor: none;
+}
+
+/* Нова качка */
+
+.new {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+/* Стилі качок шо вилітяють з права та з ліва */
+
+
+.right{
+    background-image: url(../css/img/right.png);
+    background-size: 100%;
+    left: 101%;
+}
+.left{
+    background-image: url(../css/img/left.png);
+    background-size: 100%;
+    left: -1%;
+}
+
+/* Стилі блоків хедера */
+
+#score,#time,#level{
+    width: 33%;
+    float: left;
+    color: green;
+    font-size: 18pt;
+    text-align: center;
+    -webkit-user-select: none;
+}
+
+/* Сіра сосиска яку треба замінити на рорм картинку */
+
+ #gun{
+     border: 3px solid black;
+     background: gray;
+     border-radius: 30px;
+     width: 280px;
+     height: 70px;
+     font-size: 50px;
+     position: absolute;
+     top: 100%;
+     left: 40%;
+ }
+
+/* Приціл */
+
+ #pricel{
+     position: absolute;
+     height: 50px;
+     width: 50px;
+     background-image: url(../css/img/Прицел.PNG);
+     background-size: 100%;
+ }
+
+/* Фінішна панель */
+
+ .finish{
+     margin: auto;
+     width: 90%;
+     height: 100%;
+     background: blue;
+ }
+ .finish p{
+     text-align: center;
+     color: brown;
+     font-size: 22pt;
+     z-index: 10000;
+ }
